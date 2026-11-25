@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>إلى أعظم أب في الدنيا</title>
+  <link rel="stylesheet" href="happy.css">
+</head>
+<body>
+
+<main class="phone">
+
+  <section class="screen active" id="lock">
+    <div class="topline">A SPECIAL SURPRISE</div>
+    <div class="decoration">🖤</div>
+    <h1>في مفاجأة ليك يا بابا</h1>
+    <p>اكتب الرقم السري عشان تفتح رسالتك</p>
+    <div class="slots">
+      <span class="slot"></span><span class="slot"></span>
+      <span class="slot"></span><span class="slot"></span>
+    </div>
+    <div class="keypad" id="keypad">
+      <button class="key">1</button><button class="key">2</button><button class="key">3</button>
+      <button class="key">4</button><button class="key">5</button><button class="key">6</button>
+      <button class="key">7</button><button class="key">8</button><button class="key">9</button>
+      <button class="key clear" data-action="clear">مسح</button>
+      <button class="key">0</button>
+      <button class="key clear" data-action="back">رجوع</button>
+    </div>
+    <p class="error" id="error"></p>
+  </section>
+
+  <section class="screen" id="intro">
+    <div class="topline">TO THE BEST DAD</div>
+    <div class="decoration">🖤</div>
+    <h1>إلى أعظم أب في الدنيا</h1>
+    <p>في كلام كتير نفسي أقولهولك ويمكن الكلام عمره ما يوصف قد إيه إنت غالي عندي</p>
+    <button class="pill" data-next="letter">افتح رسالتك</button>
+  </section>
+
+  <section class="screen" id="letter">
+    <div class="topline">A LETTER FROM MY HEART</div>
+    <h1>رسالة ليك يا بابا</h1>
+    <div class="note">
+      <h2>بابا الغالي 🖤</h2>
+      <p>
+        بابا حبيبي يمكن أنا مش بعرف أقولك كل اللي جوايا ويمكن ساعات مبعرفش أعبر عن حبي ليك بالكلام بس الحقيقة إن وجودك في حياتي من أكبر النعم اللي ربنا رزقني بيها
+
+        إنت مش بس بابا إنت الأمان والسند والضهر اللي بحس معاه إن الدنيا لسه بخير
+
+        شكرًا على كل مرة تعبت فيها عشاني وعلى كل مرة حاولت تخليني مبسوط وعلى كل حاجة عملتها من غير ما تستنى مني مقابل
+
+        يمكن مش كل يوم بقولك إني بحبك ويمكن ساعات بنختلف أو مبعرفش أوضحلك اللي جوايا بس عمري ما هنسى إنك من أهم الناس في حياتي وإن مكانتك عندي محدش يقدر ياخدها
+
+        نفسي دايمًا أشوفك مبسوط ومرتاح ونفسي أقدر أردلك ولو جزء صغير من كل اللي عملته عشاني
+
+        ربنا يخليك ليا ويديم وجودك في حياتي وما يحرمنيش منك أبدًا
+
+        بحبك يا أعظم أب في الدنيا 🖤
+      </p>
+    </div>
+    <button class="pill" data-next="photos">شوف صور</button>
+  </section>
+
+  <section class="screen" id="photos">
+    <div class="topline">OUR MEMORIES</div>
+    <h1>أحلى صور مع بابا 🖤</h1>
+    <p>كل صورة وراها ذكرى غالية عندي</p>
+    <div class="photos">
+      <div class="photo"><img src="n (4).jpeg" alt="صورة مع بابا"></div>
+      <div class="photo"><img src="n.jpeg" alt="صورة  بابا"></div>
+      <div class="photo"><img src="n (2).jpeg" alt="صورة  بابا"></div>
+      <div class="photo"><img src="n (3).jpeg" alt="صورة  بابا"></div>
+    </div>
+    <button class="pill" data-next="thanks">كمل المفاجأة</button>
+  </section>
+
+  <section class="screen" id="thanks">
+    <div class="decoration">🖤</div>
+    <h1>شكرًا يا بابا</h1>
+    <p>شكرًا إنك في حياتي وشكرًا على كل حاجة حلوة عملتها عشاني</p>
+    <p>ربنا يخليك ليا ويفضل قلبك منور حياتنا دايمًا</p>
+    <h2>بحبك قد الدنيا كلها</h2>
+    <button class="pill" onclick="restart()">من الأول</button>
+  </section>
+
+</main>
+
+<script src="happy.js"></script>
+</body>
+</html>
+
+
+
+
+
